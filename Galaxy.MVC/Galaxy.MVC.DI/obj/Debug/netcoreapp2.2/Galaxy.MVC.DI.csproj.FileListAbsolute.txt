@@ -28,3 +28,37 @@ D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplic
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.dll
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.pdb
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.csproj.CopyComplete
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\appsettings.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\Galaxy.MVC.DI.deps.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\Galaxy.MVC.DI.runtimeconfig.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\Galaxy.MVC.DI.runtimeconfig.dev.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\Galaxy.MVC.DI.dll
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\Galaxy.MVC.DI.pdb
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\Galaxy.MVC.DI.Views.dll
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\bin\Debug\netcoreapp2.2\Galaxy.MVC.DI.Views.pdb
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.csprojAssemblyReference.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.AssemblyInfoInputs.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.AssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.csproj.CoreCompileInputs.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.RazorAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.RazorAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.TagHelpers.input.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.TagHelpers.output.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.RazorCoreGenerate.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.RazorTargetAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.RazorTargetAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.Views.pdb
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.dll
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.pdb
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.genruntimeconfig.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.DI\obj\Debug\netcoreapp2.2\Galaxy.MVC.DI.csproj.CopyComplete
