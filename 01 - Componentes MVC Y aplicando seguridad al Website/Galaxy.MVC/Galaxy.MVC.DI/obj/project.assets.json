@@ -12086,11 +12086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.DI\\Galaxy.MVC.DI.csproj",
+      "projectUniqueName": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.DI\\Galaxy.MVC.DI.csproj",
       "projectName": "Galaxy.MVC.DI",
-      "projectPath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.DI\\Galaxy.MVC.DI.csproj",
+      "projectPath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.DI\\Galaxy.MVC.DI.csproj",
       "packagesPath": "C:\\Users\\exterickarostegui\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.DI\\obj\\",
+      "outputPath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.DI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

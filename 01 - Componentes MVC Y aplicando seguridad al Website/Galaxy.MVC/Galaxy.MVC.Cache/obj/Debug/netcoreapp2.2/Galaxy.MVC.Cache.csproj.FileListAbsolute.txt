@@ -29,3 +29,38 @@ D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplic
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.Views.pdb
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.csproj.CopyComplete
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\Pais\Default.g.cshtml.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\appsettings.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\Galaxy.MVC.Cache.deps.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\Galaxy.MVC.Cache.runtimeconfig.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\Galaxy.MVC.Cache.runtimeconfig.dev.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\Galaxy.MVC.Cache.dll
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\Galaxy.MVC.Cache.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\Galaxy.MVC.Cache.Views.dll
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\bin\Debug\netcoreapp2.2\Galaxy.MVC.Cache.Views.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.csprojAssemblyReference.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.AssemblyInfoInputs.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.AssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.csproj.CoreCompileInputs.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.RazorAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.RazorAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.TagHelpers.input.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.TagHelpers.output.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.RazorCoreGenerate.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\Pais\Default.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.RazorTargetAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.RazorTargetAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.Views.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.dll
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.genruntimeconfig.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.csproj.CopyComplete

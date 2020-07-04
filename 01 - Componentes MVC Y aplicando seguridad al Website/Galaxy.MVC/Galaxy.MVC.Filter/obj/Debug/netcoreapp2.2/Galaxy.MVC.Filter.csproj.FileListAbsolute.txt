@@ -32,3 +32,41 @@ D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplic
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Home\TimerAction.g.cshtml.cs
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Home\Exception.g.cshtml.cs
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Home\CustomException.g.cshtml.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\appsettings.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\Galaxy.MVC.Filter.deps.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\Galaxy.MVC.Filter.runtimeconfig.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\Galaxy.MVC.Filter.runtimeconfig.dev.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\Galaxy.MVC.Filter.dll
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\Galaxy.MVC.Filter.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\Galaxy.MVC.Filter.Views.dll
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\bin\Debug\netcoreapp2.2\Galaxy.MVC.Filter.Views.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.csprojAssemblyReference.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.AssemblyInfoInputs.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.AssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.csproj.CoreCompileInputs.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.RazorAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.RazorAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.TagHelpers.input.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.TagHelpers.output.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.RazorCoreGenerate.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Home\CustomException.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Home\Exception.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Home\RequiereHeader.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Home\TimerAction.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.RazorTargetAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.RazorTargetAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.Views.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.dll
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.genruntimeconfig.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Filter\obj\Debug\netcoreapp2.2\Galaxy.MVC.Filter.csproj.CopyComplete

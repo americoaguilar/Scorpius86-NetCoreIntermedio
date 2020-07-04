@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Helper\\Galaxy.MVC.Helper.csproj": {}
+    "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Helper\\Galaxy.MVC.Helper.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Helper\\Galaxy.MVC.Helper.csproj": {
+    "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Helper\\Galaxy.MVC.Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Helper\\Galaxy.MVC.Helper.csproj",
+        "projectUniqueName": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Helper\\Galaxy.MVC.Helper.csproj",
         "projectName": "Galaxy.MVC.Helper",
-        "projectPath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Helper\\Galaxy.MVC.Helper.csproj",
+        "projectPath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Helper\\Galaxy.MVC.Helper.csproj",
         "packagesPath": "C:\\Users\\exterickarostegui\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Helper\\obj\\",
+        "outputPath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Helper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

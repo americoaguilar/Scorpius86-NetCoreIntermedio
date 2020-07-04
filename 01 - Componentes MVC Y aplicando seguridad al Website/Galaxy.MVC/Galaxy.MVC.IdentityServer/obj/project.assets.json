@@ -12642,11 +12642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.IdentityServer\\Galaxy.MVC.IdentityServer.csproj",
+      "projectUniqueName": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.IdentityServer\\Galaxy.MVC.IdentityServer.csproj",
       "projectName": "Galaxy.MVC.IdentityServer",
-      "projectPath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.IdentityServer\\Galaxy.MVC.IdentityServer.csproj",
+      "projectPath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.IdentityServer\\Galaxy.MVC.IdentityServer.csproj",
       "packagesPath": "C:\\Users\\exterickarostegui\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.IdentityServer\\obj\\",
+      "outputPath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

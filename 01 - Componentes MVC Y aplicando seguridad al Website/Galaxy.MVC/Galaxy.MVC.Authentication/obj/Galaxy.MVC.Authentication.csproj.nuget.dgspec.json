@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj": {}
+    "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj": {
+    "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj",
+        "projectUniqueName": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj",
         "projectName": "Galaxy.MVC.Authentication",
-        "projectPath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj",
+        "projectPath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj",
         "packagesPath": "C:\\Users\\exterickarostegui\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Authentication\\obj\\",
+        "outputPath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

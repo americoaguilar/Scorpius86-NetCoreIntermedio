@@ -30,7 +30,7 @@ namespace Galaxy.MVC.Session.Controllers
 
             if (ViewBag.Count != null)
             {
-                ViewBag.Count = ViewBag.Count ++;
+                ViewBag.Count = ViewBag.Count + 1;
             }
             else
             {

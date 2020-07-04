@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vEOwueLQtw25rapopZzWzVnCfEJxJMlZgbcm0zS9WaAyKM83z96nh7gbF0Ig/vHe2mdlLqfC6G1pdLt79gkcIA==",
+  "dgSpecHash": "go7Tjcid6HQdtDXCnydKxTNGknkCUq3/2UbqUtzoFuTrwvqxVO+3G1UOrhss9eiCwFcgsOEMfH1veHIgZr315Q==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.IdentityServer\\Galaxy.MVC.IdentityServer.csproj",
+  "projectFilePath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.IdentityServer\\Galaxy.MVC.IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\exterickarostegui\\.nuget\\packages\\devexpress.data\\18.2.3\\devexpress.data.18.2.3.nupkg.sha512",
     "C:\\Users\\exterickarostegui\\.nuget\\packages\\devexpress.xpo\\18.2.3\\devexpress.xpo.18.2.3.nupkg.sha512",

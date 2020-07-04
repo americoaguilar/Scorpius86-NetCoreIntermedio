@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1yR1aNU3Y0DCAM0+QFCsqnBDnLTI+Lm8/HlyMbbqp6yYA/fw+ZVy33TFXMtLibG67sQFEytNpxppJ1qj2S18BA==",
+  "dgSpecHash": "ArfWWjKx3Mdtif7lF9GyNuR3kOy7bMw5zYuarNpzIAL6W7bXUSYG13n4FPJcDDqSWBFRC4MJZgu8E6dN133n3w==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Session\\Galaxy.MVC.Session.csproj",
+  "projectFilePath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Session\\Galaxy.MVC.Session.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

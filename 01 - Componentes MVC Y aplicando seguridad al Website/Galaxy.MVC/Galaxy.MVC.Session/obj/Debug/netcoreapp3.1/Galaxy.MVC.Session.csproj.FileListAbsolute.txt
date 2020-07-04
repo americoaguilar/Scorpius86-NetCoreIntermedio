@@ -1,0 +1,5 @@
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Session\obj\Debug\netcoreapp3.1\Galaxy.MVC.Session.csprojAssemblyReference.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Session\obj\Debug\netcoreapp3.1\Galaxy.MVC.Session.AssemblyInfoInputs.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Session\obj\Debug\netcoreapp3.1\Galaxy.MVC.Session.AssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Session\obj\Debug\netcoreapp3.1\Galaxy.MVC.Session.csproj.CoreCompileInputs.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Session\obj\Debug\netcoreapp3.1\Galaxy.MVC.Session.MvcApplicationPartsAssemblyInfo.cache

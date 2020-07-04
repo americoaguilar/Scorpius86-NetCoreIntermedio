@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eunHdOkMYAb+cuFVRqr2RoO7NBKj0lS62fGwOYdaI4xFe5k7jJLWsHBE2X449K38njiE7RPGJukiQ6qmroLGyQ==",
+  "dgSpecHash": "j9eHz7VwMBN+mZDnJBpQAkNlyFQk+peaeaeeQwoG4n6/JxZU+DdwSR4kOZPxCiS6EqOobs3WMNsMl60wbuY5PQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\NetCoreIntermedio\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj",
+  "projectFilePath": "D:\\GitHub\\NetCoreIntermedio\\01 - Componentes MVC Y aplicando seguridad al Website\\Galaxy.MVC\\Galaxy.MVC.Authentication\\Galaxy.MVC.Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\exterickarostegui\\.nuget\\packages\\bcrypt.net-next\\3.1.3\\bcrypt.net-next.3.1.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",

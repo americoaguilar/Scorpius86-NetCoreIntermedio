@@ -41,7 +41,7 @@ namespace Galaxy.MVC.Session
 
             services.AddDistributedSqlServerCache(options =>
             {
-                options.ConnectionString = @"Data Source=.;Initial Catalog=Galaxy;User Id = sa;Password=Password123";
+                options.ConnectionString = @"Data Source=PE-LPALQ00769\MSSQLSERVER2019;Initial Catalog=Galaxy;User Id = sa;Password=Password1234";
                 options.SchemaName = "dbo";
                 options.TableName = "SQLSessions";
             });
