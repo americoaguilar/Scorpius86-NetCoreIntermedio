@@ -1,0 +1,63 @@
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.deps.json
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.runtimeconfig.json
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.runtimeconfig.dev.json
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.dll
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.pdb
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.Views.dll
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.Views.pdb
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.csproj.CoreCompileInputs.cache
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorAssemblyInfo.cache
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorAssemblyInfo.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.AssemblyInfoInputs.cache
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.AssemblyInfo.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.TagHelpers.input.cache
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.TagHelpers.output.cache
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorCoreGenerate.cache
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorTargetAssemblyInfo.cache
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorTargetAssemblyInfo.cs
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.Views.pdb
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.dll
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.pdb
+D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.csproj.CopyComplete
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\appsettings.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.deps.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.runtimeconfig.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.runtimeconfig.dev.json
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.dll
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.pdb
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.Views.dll
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\bin\Debug\netcoreapp2.2\Galaxy.MVC.Helper.Views.pdb
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.csprojAssemblyReference.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.AssemblyInfoInputs.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.AssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.csproj.CoreCompileInputs.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.TagHelpers.input.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.TagHelpers.output.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorCoreGenerate.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorTargetAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.RazorTargetAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.Views.pdb
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.dll
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.pdb
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.genruntimeconfig.cache
+D:\GitHub\NetCoreIntermedio\Galaxy.MVC\Galaxy.MVC.Helper\obj\Debug\netcoreapp2.2\Galaxy.MVC.Helper.csproj.CopyComplete
