@@ -1,8 +1,7 @@
-﻿@using Galaxy.MVC.Cache.Components
-@model CacheViewModel
+﻿@model CacheViewModel
 
 <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-4">
         <div class="card shadow p-3 mb-5 bg-white rounded" style="border-color:#7030a0">
             <div class="card-body">
                 <h5 class="card-title" style="color:#7030a0">InMemoryCache</h5>
@@ -14,7 +13,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
         <div class="card shadow p-3 mb-5 bg-white rounded" style="border-color:#1f4e79">
             <div class="card-body">
                 <h5 class="card-title" style="color:#1f4e79">Cache Tag Helper</h5>
@@ -25,7 +24,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4">
         <div class="card shadow p-3 mb-5 bg-white rounded" style="border-color:#00b050">
             <div class="card-body">
                 <h5 class="card-title" style="color:#00b050">Distributed Cache</h5>
@@ -37,16 +36,4 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-3">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="border-color:#c00000">
-            <div class="card-body">
-                <h5 class="card-title" style="color:#c00000">Response Caching</h5>
-                <p class="card-text">Lista de paises :</p>
-                @foreach (string pais in Model.Response)
-                {
-                    <p>@pais</p>
-                }
-            </div>
-        </div>
-    </div>   
 </div>

@@ -34,6 +34,14 @@ namespace Galaxy.MVC.Cache.Controllers
         }
 
         [ResponseCache(CacheProfileName = "Default")]
+        public IActionResult ResponseCache()
+        {
+            CacheViewModel cacheViewModel = new CacheViewModel();
+            cacheViewModel.Response = _paises;
+            return View(cacheViewModel);
+        }
+
+        [ResponseCache(CacheProfileName = "Default")]
         public IActionResult Index()
         {
             CacheViewModel cacheViewModel = new CacheViewModel();
@@ -51,7 +59,7 @@ namespace Galaxy.MVC.Cache.Controllers
                     Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(_paises)),
                     new DistributedCacheEntryOptions
                     {
-                        SlidingExpiration = TimeSpan.FromSeconds(4)
+                        SlidingExpiration = TimeSpan.FromSeconds(10)
                     }
                );
 

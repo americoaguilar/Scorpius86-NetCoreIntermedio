@@ -37,16 +37,16 @@ namespace Galaxy.MVC.Cache
                 {
                     config.CacheProfiles.Add("Default",new CacheProfile
                     {
-                        Duration = 15,
+                        Duration = 5,
                         Location = ResponseCacheLocation.Any
                     });
                 }    
             ).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            //services.AddDistributedRedisCache(options =>
-            //{
-            //    options.InstanceName = "Galaxy.MVC.Cache.Redis";
-            //    options.Configuration = "localhost";
-            //});
+            services.AddDistributedRedisCache(options =>
+            {
+                options.InstanceName = "Galaxy.MVC.Cache.Redis";
+                options.Configuration = "localhost";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

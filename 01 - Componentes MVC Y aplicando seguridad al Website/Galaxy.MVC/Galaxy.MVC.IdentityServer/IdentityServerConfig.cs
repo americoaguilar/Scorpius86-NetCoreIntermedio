@@ -47,7 +47,8 @@ namespace Galaxy.MVC.IdentityServer
                     Password = "password",
                     Claims = new []
                     {
-                        new Claim("name", "Erick")
+                         new Claim("name", "Erick"),
+                         new Claim("nickname", "Admin")
                     }
                 }
             };

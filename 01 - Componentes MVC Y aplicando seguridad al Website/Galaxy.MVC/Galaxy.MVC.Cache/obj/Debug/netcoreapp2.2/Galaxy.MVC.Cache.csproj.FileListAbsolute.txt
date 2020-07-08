@@ -64,3 +64,4 @@ D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Websit
 D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.pdb
 D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.genruntimeconfig.cache
 D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Galaxy.MVC.Cache.csproj.CopyComplete
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Cache\obj\Debug\netcoreapp2.2\Razor\Views\Home\ResponseCache.cshtml.g.cs

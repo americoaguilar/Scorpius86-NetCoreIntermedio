@@ -31,3 +31,40 @@ D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplic
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.g.cshtml.cs
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Home\UserInformation.g.cshtml.cs
 D:\OneDrive\Galaxy\ASP NET MVC 6.0 Nivel Intermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignUp.g.cshtml.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\appsettings.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.deps.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.runtimeconfig.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.runtimeconfig.dev.json
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.dll
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.Views.dll
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\bin\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.Views.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.csprojAssemblyReference.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.AssemblyInfoInputs.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.AssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.csproj.CoreCompileInputs.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.RazorAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.RazorAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.TagHelpers.input.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.TagHelpers.output.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.RazorCoreGenerate.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignUp.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Home\UserInformation.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.RazorTargetAssemblyInfo.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.RazorTargetAssemblyInfo.cs
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.Views.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.dll
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.pdb
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.genruntimeconfig.cache
+D:\GitHub\NetCoreIntermedio\01 - Componentes MVC Y aplicando seguridad al Website\Galaxy.MVC\Galaxy.MVC.Authentication\obj\Debug\netcoreapp2.2\Galaxy.MVC.Authentication.csproj.CopyComplete

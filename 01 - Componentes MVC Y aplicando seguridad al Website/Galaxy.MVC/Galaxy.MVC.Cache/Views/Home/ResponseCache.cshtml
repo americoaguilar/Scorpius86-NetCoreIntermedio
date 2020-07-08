@@ -1,0 +1,20 @@
+﻿@model CacheViewModel
+@{
+    ViewData["Title"] = "ResponseCache";
+}
+
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="card shadow p-3 mb-5 bg-white rounded" style="border-color:#c00000">
+            <div class="card-body">
+                <h5 class="card-title" style="color:#c00000">Response Caching</h5>
+                <p class="card-text">Lista de paises :</p>
+                @foreach (string pais in Model.Response)
+                {
+                    <p>@pais</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
