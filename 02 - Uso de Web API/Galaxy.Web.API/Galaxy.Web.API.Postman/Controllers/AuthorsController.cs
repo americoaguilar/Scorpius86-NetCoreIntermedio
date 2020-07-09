@@ -22,7 +22,7 @@ namespace Galaxy.Web.API.Postman.Controllers
             _libraryRepository = libraryRepository;
         }
         [HttpGet()]
-        [Authorize]
+        //[Authorize]
         public ActionResult<List<AuthorDto>> GetAuthors()
         {
             List<Author> authorsRepo = _libraryRepository.GetAuthors();

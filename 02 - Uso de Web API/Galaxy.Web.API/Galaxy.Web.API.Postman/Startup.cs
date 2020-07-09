@@ -34,8 +34,8 @@ namespace Galaxy.Web.API.Postman
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            JwtSettings jwtSettings = GetJwtSettings();
-            services.AddSingleton<JwtSettings>(jwtSettings);
+            //JwtSettings jwtSettings = GetJwtSettings();
+            //services.AddSingleton<JwtSettings>(jwtSettings);
 
             services.AddMvc(setupAction =>
             {
@@ -47,25 +47,25 @@ namespace Galaxy.Web.API.Postman
             services.AddDbContext<LibraryContext>(opt => opt.UseSqlServer(conStr));
             services.AddScoped<ILibraryRepository, LibraryRepository>();
 
-            services.AddAuthentication(opt =>
-            {
-                opt.DefaultAuthenticateScheme = "JwtBearer";
-                opt.DefaultChallengeScheme = "JwtBearer";
-            })
-            .AddJwtBearer("JwtBearer", jwtOpt =>
-             {
-                 jwtOpt.TokenValidationParameters = new TokenValidationParameters
-                 {
-                     ValidateIssuerSigningKey = true,
-                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key)),
-                     ValidateIssuer = true,
-                     ValidIssuer = jwtSettings.Issuer,
-                     ValidateAudience = true,
-                     ValidAudience = jwtSettings.Audience,
-                     ValidateLifetime = true,
-                     ClockSkew = TimeSpan.FromMinutes(jwtSettings.MinuteExpiration)
-                 };
-             });
+            //services.AddAuthentication(opt =>
+            //{
+            //    opt.DefaultAuthenticateScheme = "JwtBearer";
+            //    opt.DefaultChallengeScheme = "JwtBearer";
+            //})
+            //.AddJwtBearer("JwtBearer", jwtOpt =>
+            // {
+            //     jwtOpt.TokenValidationParameters = new TokenValidationParameters
+            //     {
+            //         ValidateIssuerSigningKey = true,
+            //         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.Key)),
+            //         ValidateIssuer = true,
+            //         ValidIssuer = jwtSettings.Issuer,
+            //         ValidateAudience = true,
+            //         ValidAudience = jwtSettings.Audience,
+            //         ValidateLifetime = true,
+            //         ClockSkew = TimeSpan.FromMinutes(jwtSettings.MinuteExpiration)
+            //     };
+            // });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -92,16 +92,16 @@ namespace Galaxy.Web.API.Postman
             app.UseMvc();
         }
 
-        protected JwtSettings GetJwtSettings()
-        {
-            JwtSettings jwtSettings = new JwtSettings();
+        //protected JwtSettings GetJwtSettings()
+        //{
+        //    JwtSettings jwtSettings = new JwtSettings();
 
-            jwtSettings.Key = Configuration["JwtSettings:key"];
-            jwtSettings.Audience = Configuration["JwtSettings:audience"];
-            jwtSettings.Issuer = Configuration["JwtSettings:issuer"];
-            jwtSettings.MinuteExpiration = Convert.ToInt32(Configuration["JwtSettings:minuteExpiration"]);
+        //    jwtSettings.Key = Configuration["JwtSettings:key"];
+        //    jwtSettings.Audience = Configuration["JwtSettings:audience"];
+        //    jwtSettings.Issuer = Configuration["JwtSettings:issuer"];
+        //    jwtSettings.MinuteExpiration = Convert.ToInt32(Configuration["JwtSettings:minuteExpiration"]);
 
-            return jwtSettings;
-        }
+        //    return jwtSettings;
+        //}
     }
 }

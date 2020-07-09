@@ -37,7 +37,7 @@ namespace Galaxy.MVC.Cache
                 {
                     config.CacheProfiles.Add("Default",new CacheProfile
                     {
-                        Duration = 5,
+                        Duration = 15,
                         Location = ResponseCacheLocation.Any
                     });
                 }    
