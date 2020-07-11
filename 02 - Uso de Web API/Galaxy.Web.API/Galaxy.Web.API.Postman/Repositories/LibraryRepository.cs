@@ -1,13 +1,14 @@
 ﻿using AutoMapper;
-using Galaxy.Web.API.Postman.Data;
-using Galaxy.Web.API.Postman.Entities;
+using Galaxy.Web.API.Postman.Data.Context;
+using Galaxy.Web.API.Postman.Data.Entities;
 using Galaxy.Web.API.Postman.Models;
+using Microsoft.EntityFrameworkCore.ValueGeneration.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Galaxy.Web.API.Postman.Services
+namespace Galaxy.Web.API.Postman.Repositories
 {
     public class LibraryRepository: ILibraryRepository
     {
@@ -18,9 +19,27 @@ namespace Galaxy.Web.API.Postman.Services
             _libraryContext = libraryContext;
         }
 
-        public List<Author> GetAuthors()
+        public List<Author> GetAuthors(string orderBy,string asc)
         {
-            return _libraryContext.Authors.ToList();
+            List<Author> authors;
+            IQueryable<Author> query;
+
+                switch (orderBy)
+                {
+                    case "Name":
+                        query = string.IsNullOrEmpty(asc) ? _libraryContext.Authors.OrderBy(o => o.Name) : _libraryContext.Authors.OrderByDescending(o => o.Name);
+                        break;
+                    case "Age":
+                        query = string.IsNullOrEmpty(asc) ? _libraryContext.Authors.OrderBy(o => o.Age) : _libraryContext.Authors.OrderByDescending(o => o.Age);
+                    break;
+                    default:
+                        query = _libraryContext.Authors;
+                        break;
+                }
+
+            authors = query.ToList();
+
+            return authors;
         }
 
         public Author GetAuthor(Guid id)
@@ -28,13 +47,15 @@ namespace Galaxy.Web.API.Postman.Services
             return _libraryContext.Authors.FirstOrDefault(author => author.Id == id);
         }
 
-        public void AddAuthor(AuthorDto authorDto)
+        public Author AddAuthor(AuthorDto authorDto)
         {
             authorDto.Id = Guid.NewGuid();
             Author author = new Author();
             Mapper.Map(authorDto, author);
             _libraryContext.Authors.Add(author);
             _libraryContext.SaveChanges();
+
+            return author;
         }
 
         public List<Book> GetBooksForAuthor(Guid authorId)
@@ -51,7 +72,7 @@ namespace Galaxy.Web.API.Postman.Services
             Author author = GetAuthor(authorDto.Id);
             Mapper.Map(authorDto, author);
 
-            _libraryContext.Update(author);
+            _libraryContext.Authors.Update(author);
             _libraryContext.SaveChanges();
             return author;
         }

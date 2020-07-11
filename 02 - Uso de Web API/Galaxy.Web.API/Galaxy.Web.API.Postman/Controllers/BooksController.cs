@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using Galaxy.Web.API.Postman.Data;
-using Galaxy.Web.API.Postman.Entities;
+using Galaxy.Web.API.Postman.Data.Entities;
+
 using Galaxy.Web.API.Postman.Models;
-using Galaxy.Web.API.Postman.Services;
+using Galaxy.Web.API.Postman.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

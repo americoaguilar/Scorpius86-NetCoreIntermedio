@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Galaxy.Web.API.Postman.Models;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -27,13 +28,14 @@ namespace Galaxy.Web.API.Postman.Security
             jwtClaims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
 
             jwtClaims.Add(new Claim("Rol", "Administrator"));
+            jwtClaims.Add(new Claim("FavoriteFriut", "Apple"));
 
             var token = new JwtSecurityToken(
                     issuer: _jwtSettings.Issuer,
                     audience: _jwtSettings.Audience,
                     claims: jwtClaims,
                     notBefore: DateTime.UtcNow,
-                    expires: DateTime.UtcNow.AddMinutes(_jwtSettings.MinuteExpiration),
+                    expires: DateTime.UtcNow.AddMinutes(_jwtSettings.MinutesToExpiration),
                     signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256)
                     );
 

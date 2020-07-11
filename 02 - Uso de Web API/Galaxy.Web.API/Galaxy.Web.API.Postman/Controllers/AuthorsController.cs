@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using Galaxy.Web.API.Postman.Entities;
-using Galaxy.Web.API.Postman.Data;
+using Galaxy.Web.API.Postman.Data.Entities;
 using Galaxy.Web.API.Postman.Models;
-using Galaxy.Web.API.Postman.Services;
+using Galaxy.Web.API.Postman.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 
@@ -22,10 +21,10 @@ namespace Galaxy.Web.API.Postman.Controllers
             _libraryRepository = libraryRepository;
         }
         [HttpGet()]
-        //[Authorize]
-        public ActionResult<List<AuthorDto>> GetAuthors()
+        [Authorize]
+        public ActionResult<List<AuthorDto>> GetAuthors([FromQuery] string orderBy, [FromQuery] string asc)
         {
-            List<Author> authorsRepo = _libraryRepository.GetAuthors();
+            List<Author> authorsRepo = _libraryRepository.GetAuthors(orderBy, asc);
             List<AuthorDto> authors = Mapper.Map<List<AuthorDto>>(authorsRepo);
             return Ok(authors);
         }
@@ -47,16 +46,21 @@ namespace Galaxy.Web.API.Postman.Controllers
         }
 
         [HttpPost()]
-        public ActionResult CreateAuthor([FromBody] AuthorDto authorDto)
+        public ActionResult<AuthorDto> CreateAuthor([FromBody] AuthorDto authorDto)
         {
-            _libraryRepository.AddAuthor(authorDto);
+            Author authorRepo = _libraryRepository.AddAuthor(authorDto);
 
-            return CreatedAtRoute("GetAuthor", new { id = authorDto.Id }, authorDto);
+            //return CreatedAtRoute("GetAuthor", new { id = authorDto.Id }, authorDto);
+
+            AuthorDto author = Mapper.Map<AuthorDto>(authorRepo);
+
+            return CreatedAtAction("CreateAuthor", author);
         }
 
-        [HttpPut()]
-        public ActionResult<AuthorDto> UpdateAuthor([FromBody] AuthorDto authorDto)
+        [HttpPut("{id}")]
+        public ActionResult<AuthorDto> UpdateAuthor(Guid id, [FromBody] AuthorDto authorDto)
         {
+            authorDto.Id = id;
             Author authorRepo = _libraryRepository.UpdateAuthor(authorDto);           
             return CreatedAtRoute("GetAuthor", new { id = authorRepo.Id }, authorRepo); ; 
         }
