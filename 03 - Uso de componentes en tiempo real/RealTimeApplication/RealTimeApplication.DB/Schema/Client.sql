@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Client]
+(
+	ClientId INT IDENTITY NOT NULL,
+	[Name] VARCHAR(250) NOT NULL,
+	LastName VARCHAR(250) NOT NULL,
+	Telephone VARCHAR(250) NOT NULL,
+
+	CONSTRAINT PK_Client PRIMARY KEY (ClientId)
+)

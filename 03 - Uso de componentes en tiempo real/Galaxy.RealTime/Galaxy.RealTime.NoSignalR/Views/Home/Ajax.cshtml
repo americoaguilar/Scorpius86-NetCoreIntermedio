@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Ajax";
+}
+
+<div>
+    <div class="row">
+        <table id="jqGrid"></table>
+        <div id="jqGridPager"></div>
+    </div>
+    <div class="row">
+        <div>
+
+        </div>
+    </div>
+</div>
+ 
+@section Scripts{
+<script>
+    let authores = [];
+
+    $(document).ready(function () {
+        $("#jqGrid").jqGrid({
+            dataType: "local",
+            data: authores,
+            height: 250,
+            rowNum: 5,
+            pager: "#jqGridPager",
+            colModel: [
+                { label: 'Id', name: 'id', width: 100, key: true },
+                { label: 'Nombre', name: 'name', width: 100 },
+                { label: 'Edad', name: 'age', width: 30 },
+                { label: 'Genero', name: 'genre', width: 50 }
+            ],
+            viewRecords: true,
+            caption: "Lista de autores (AJAX)"
+        });
+    });
+</script>
+}

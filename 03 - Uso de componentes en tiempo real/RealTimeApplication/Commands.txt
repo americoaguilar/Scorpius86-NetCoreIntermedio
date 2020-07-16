@@ -1,0 +1,2 @@
+Crear un proyecto Web vacio de .Net Core
+Agregar la referencia de  "Microsoft.AspNetCore.SignalR"

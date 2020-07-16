@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Product]
+(
+	ProductId INT IDENTITY NOT NULL,
+	[Description] VARCHAR(250) NOT NULL,
+	Feature01 VARCHAR(250) NOT NULL,
+	Feature02 VARCHAR(250) NOT NULL,
+	Price DECIMAL(30,2) NOT NULL,
+	FileImage VARCHAR(250) NOT NULL,
+
+	CONSTRAINT PK_Product PRIMARY KEY (ProductId),
+)
