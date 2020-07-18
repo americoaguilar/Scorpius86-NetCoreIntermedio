@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-trackings',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./trackings.component.scss']
 })
 export class TrackingsComponent implements OnInit {
-
-  constructor() { }
+  trackId:number =0;
+  constructor(
+    private route: ActivatedRoute,
+  ) { }
 
   ngOnInit(): void {
+    this.trackId = this.route.snapshot.params.trackId ;
   }
 
 }

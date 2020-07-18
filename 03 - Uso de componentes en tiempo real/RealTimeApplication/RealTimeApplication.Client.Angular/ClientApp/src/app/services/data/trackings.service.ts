@@ -15,9 +15,8 @@ export class TrackingsService {
   public list(): Observable<TrackingModel[]> {
     return this.httpClient.get<TrackingModel[]>(`${this.trackingsURL}/`);
   }
-  public getByClientId(trackingId:number): Observable<TrackingModel> {
+  public getByTrackingId(trackingId:number): Observable<TrackingModel> {
     let params = new HttpParams();
-    params = params.append('trackingId', trackingId.toString());
-    return this.httpClient.get<TrackingModel>(`${this.trackingsURL}/`, { params: params });
+    return this.httpClient.get<TrackingModel>(`${this.trackingsURL}/`+trackingId);
   }
 }

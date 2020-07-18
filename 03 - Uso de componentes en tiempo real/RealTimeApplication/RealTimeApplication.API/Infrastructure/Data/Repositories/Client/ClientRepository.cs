@@ -27,7 +27,7 @@ namespace RealTimeApplication.API.Infrastructure.Data.Repositories.Order
                        join t in _context.Trackings on o.OrderId equals t.OrderId
                        join tp in _context.TrackingProducts on t.TrackingId equals tp.TrackingId
                        join p in _context.Products on tp.ProductId equals p.ProductId
-                       group p by new {c.ClientId,c.Name,c.LastName,c.Telephone,c.FileImageIcon } into grp
+                       group p by new { c.ClientId, c.Name, c.LastName, c.Telephone, c.FileImageIcon } into grp
                        select new ClientDto
                        {
                            ClientId = grp.Key.ClientId,

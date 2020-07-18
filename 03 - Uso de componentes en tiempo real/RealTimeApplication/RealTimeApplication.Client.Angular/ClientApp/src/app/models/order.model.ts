@@ -7,4 +7,8 @@ export class OrderModel {
     Description: string;
     Client: ClientModel;
     Trackings: TrackingModel[];
+    
+    constructor(){
+        this.Client=new ClientModel();
+    }
 }

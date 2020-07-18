@@ -19,6 +19,8 @@
   <ItemGroup>
     <Folder Include="Infrastructure\Data\Contexts\" />
     <Folder Include="Infrastructure\Data\Entities\" />
+    <Folder Include="Infrastructure\Security\" />
+    <Folder Include="Dominio\" />
   </ItemGroup>
 
 

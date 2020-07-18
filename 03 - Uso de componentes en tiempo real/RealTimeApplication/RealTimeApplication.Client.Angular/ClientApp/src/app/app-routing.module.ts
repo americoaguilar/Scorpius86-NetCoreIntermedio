@@ -16,11 +16,11 @@ import { SaleByCustomerComponent } from './dashboard/sale-by-customer/sale-by-cu
 import { LeadingProductComponent } from './dashboard/leading-product/leading-product.component';
 import { OrderStatsComponent } from './dashboard/order-stats/order-stats.component';
 import { TrackingStatsComponent } from './dashboard/tracking-stats/tracking-stats.component';
+import { TrackingComponent } from './trackings/tracking/tracking.component';
 
 const routes: Routes = [
-  { path: 'orders', component: OrdersComponent, pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'trackings/:orderId', component: TrackingsComponent },
+  { path: 'trackings/:trackId', component: TrackingsComponent },
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' } 
 ];
 
@@ -50,5 +50,6 @@ export class AppRoutingModule {
       TrendComponent,
       TrackingStatsComponent,
       SaleByCustomerComponent,
+      TrackingComponent
   ]
 }

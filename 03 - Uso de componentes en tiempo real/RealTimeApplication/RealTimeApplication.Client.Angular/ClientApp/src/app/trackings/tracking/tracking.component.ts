@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { TrackingsService } from 'src/app/services/data/trackings.service';
+import { TrackingModel } from 'src/app/models/tracking.Model';
 
 @Component({
   selector: 'app-tracking',
@@ -6,10 +8,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tracking.component.scss']
 })
 export class TrackingComponent implements OnInit {
+  @Input("TrackId") trackId:number;
+  tracking:TrackingModel;
 
-  constructor() { }
+  constructor(
+    private trackingsService:TrackingsService
+  ) { }
 
   ngOnInit(): void {
+    this.getByTrackingId(this.trackId);
+  }
+
+  getByTrackingId(trackingId:number){
+    this.trackingsService.getByTrackingId(trackingId).subscribe(tracking=>{
+      this.tracking = tracking;
+    });
   }
 
 }
