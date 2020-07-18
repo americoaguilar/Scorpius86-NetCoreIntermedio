@@ -1,0 +1,26 @@
+<mat-card fxFlex>
+  <mat-card-header>
+    <mat-card-title>Trending</mat-card-title>
+    <mat-card-subtitle>
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <div *ngFor="let trend of trends" class="list">
+      <div class="top" fxLayout="column" fxLayoutAlign="space-between stretch">
+        <div fxLayout="row" fxLayoutAlign="space-between stretch" fxFlex="50" class="top">
+            <div fxFlex="50px" class="iconContainer"><img src="assets/img/icon/{{trend.FileImageIcon}}" class="icon"/> </div>
+            <div fxFlex class="description">
+                <p class="title">{{trend.Description}}</p>
+                <p class="subTitle">{{trend.Days}} day ago</p>
+            </div>
+        </div>
+        <div fxFlex="50" class="bottom">
+          <p class="detail">{{trend.Detail}} day ago</p>
+        </div>
+      </div>
+    </div>    
+  </mat-card-content>
+  <mat-card-actions>
+  </mat-card-actions>
+</mat-card>
+

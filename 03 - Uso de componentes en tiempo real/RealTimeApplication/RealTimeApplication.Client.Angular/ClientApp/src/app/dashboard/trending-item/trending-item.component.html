@@ -1,0 +1,46 @@
+<mat-card fxFlex>
+  <mat-card-header>
+    <mat-card-title>Trending Items</mat-card-title>
+    <mat-card-subtitle>
+      <div>More than 400+ new clients</div>      
+      <mat-button-toggle-group color="primary" appearance="legacy">
+        <mat-button-toggle>Month</mat-button-toggle>
+        <mat-button-toggle>Week</mat-button-toggle>
+        <mat-button-toggle>Day</mat-button-toggle>
+      </mat-button-toggle-group>
+    </mat-card-subtitle>    
+  </mat-card-header>
+  <mat-card-content>
+    <div class="tableContainer">
+      <table mat-table [dataSource]="trendingItems" class="mat-elevation-z0">
+        <ng-container matColumnDef="FileImageIcon">
+          <th mat-header-cell *matHeaderCellDef class="hideHeader">  </th>
+          <td mat-cell *matCellDef="let trendingItem">
+            <div class="icon">
+              <img class="clientIcon" src="assets/img/icon/{{trendingItem.FileImageIcon}}" />  
+            </div>
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="Description">
+          <th mat-header-cell *matHeaderCellDef class="hideHeader">  </th>
+          <td mat-cell *matCellDef="let trendingItem">
+            <p class="title">{{trendingItem.Description}}</p>
+            <p class="subTitle">{{trendingItem.Detail}}</p>
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="Percentage">
+          <th mat-header-cell *matHeaderCellDef class="hideHeader">  </th>
+          <td mat-cell *matCellDef="let trendingItem">
+            <div class="subTitle" style="float:left">{{trendingItem.Percentage}}%</div><div class="subTitle" style="float:right">Progress</div>
+            <mat-progress-bar mode="determinate" value="{{trendingItem.Percentage}}" color="{{trendingItem.Percentage>50?'primary':'warn'}}"></mat-progress-bar>
+          </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns" class="hideHeader"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+  </mat-card-actions>
+</mat-card>
+

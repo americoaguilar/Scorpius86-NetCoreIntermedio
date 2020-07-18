@@ -62,7 +62,7 @@ namespace RealTimeApplication.HUB
             //{
             //    opt.Configuration.ChannelPrefix = "Coffee";
             //})
-            .AddAzureSignalR(opt=>
+            .AddAzureSignalR(opt =>
             {
                 opt.ConnectionString = "Endpoint=https://realtimeapplication-signalr.service.signalr.net;AccessKey=yw08R/mRHoU/SLRyNXR82DnriGRZN/BRNarkZ/mQ4Tg=;Version=1.0;";
             })

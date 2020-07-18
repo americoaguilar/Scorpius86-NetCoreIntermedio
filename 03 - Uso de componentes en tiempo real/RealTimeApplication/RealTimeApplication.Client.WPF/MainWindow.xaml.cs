@@ -44,13 +44,13 @@ namespace RealTimeApplication.Client.WPF
             //var hubProxy = hubConnection.CreateHubProxy("CoffeeHub");
 
             var hubConnection = new HubConnectionBuilder()
-                //.WithUrl("https://localhost:44340/CoffeeHub")
-                .WithUrl("http://realtimeapplication-hub.azurewebsites.net/coffeeHub")
+                .WithUrl("https://localhost:44340/CoffeeHub")
+                //.WithUrl("http://realtimeapplication-hub.azurewebsites.net/coffeeHub")
                 .Build();
 
             hubConnection.On<UpdateInfoDto>("ReceiveOrderUpdate", updateObject =>
             {
-                var order = orders.SingleOrDefault(c => c.OrderId == updateObject.OrderId);
+                var order = orders.SingleOrDefault(c => c.OrderCoffeeId == updateObject.OrderCoffeeId);
                 if (order != null)
                     Dispatcher.Invoke(() => orders.Remove(order));
 

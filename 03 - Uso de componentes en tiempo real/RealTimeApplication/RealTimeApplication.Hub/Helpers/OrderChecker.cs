@@ -46,7 +46,7 @@ namespace RealTimeApplication.HUB.Helpers
 
             var result = new UpdateInfoDto
             {
-                OrderId = order.OrderCoffeeId,
+                OrderCoffeeId = order.OrderCoffeeId,
                 IsNew = true,
                 Update = Status[index],
                 IsFinished = (Status.Length - 1 == index)

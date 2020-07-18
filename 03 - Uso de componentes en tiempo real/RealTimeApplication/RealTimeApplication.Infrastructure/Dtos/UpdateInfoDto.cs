@@ -7,7 +7,7 @@ namespace RealTimeApplication.HUB.Models
 {
     public class UpdateInfoDto
     {
-        public int OrderId { get; set; }
+        public int OrderCoffeeId { get; set; }
         public bool IsNew { get; set; }
         public string Update { get; set; }
         public bool IsFinished { get; set; }

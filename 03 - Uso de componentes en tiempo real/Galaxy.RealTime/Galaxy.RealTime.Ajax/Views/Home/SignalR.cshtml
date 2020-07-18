@@ -71,7 +71,8 @@
 
         setupConnection = () => {
             connection = new signalR.HubConnectionBuilder()
-                .withUrl("/authorhub")
+                //.withUrl("/authorhub")
+                .withUrl("/authorhub", { transport: signalR.HttpTransportType.LongPolling })
                 .build();
 
             connection.on("refreshAuthors", function (mensaje) {

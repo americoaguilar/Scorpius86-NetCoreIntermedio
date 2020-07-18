@@ -5,7 +5,7 @@ setupConnection = (connection) => {
 
     connection.on("ReceiveOrderUpdate", function (updateObject) {
         const statusDiv = document.getElementById("status");
-        statusDiv.innerHTML = `Order: ${updateObject.OrderId}: ${updateObject.Update}`;
+        statusDiv.innerHTML = `Order: ${updateObject.OrderCoffeeId}: ${updateObject.Update}`;
     });
 
     connection.on("NewOrder", function (order) {
@@ -17,8 +17,8 @@ setupConnection = (connection) => {
 document.addEventListener("DOMContentLoaded", function (event) {
     const connection = new signalR.HubConnectionBuilder()
         //.withUrl("https://localhost:44340/coffeeHub", { transport: signalR.HttpTransportType.LongPolling})
-        //.withUrl("https://localhost:44340/coffeeHub")
-        .withUrl("http://realtimeapplication-hub.azurewebsites.net/coffeeHub")
+        .withUrl("https://localhost:44340/coffeeHub")
+        //.withUrl("http://realtimeapplication-hub.azurewebsites.net/coffeeHub")
         .configureLogging(signalR.LogLevel.Information)
         .build();
 
@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
             const product = document.getElementById("product").value;
             const size = document.getElementById("size").value;
-            var urlAPI = "https://realtimeapplication-api.azurewebsites.net/api/Coffee";
-            //var urlAPI = "https://localhost:44342/api/Coffee";
+            //var urlAPI = "https://realtimeapplication-api.azurewebsites.net/api/Coffee";
+            var urlAPI = "https://localhost:44342/api/Coffee";
             fetch(urlAPI,
                 {
                     method: "POST",
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 .then(response => response.text())
                 .then(id => {
                     let order = {
-                        orderId: parseInt(id),
+                        orderCoffeeId: parseInt(id),
                         product: product,
                         size: size
                     };

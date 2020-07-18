@@ -12,7 +12,7 @@
 
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header = "Order Id" DisplayMemberBinding="{Binding OrderId}" Width = "150"/>
+                    <GridViewColumn Header = "Order Id" DisplayMemberBinding="{Binding OrderCoffeeId}" Width = "150"/>
                     <GridViewColumn Header = "Status" DisplayMemberBinding="{Binding Update}" Width = "350"/>
                 </GridView>
             </ListView.View>
