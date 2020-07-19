@@ -16,11 +16,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeApplication.Infrast
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeApplication.Client.Web", "RealTimeApplication.Client.Web\RealTimeApplication.Client.Web.csproj", "{99DB299D-5674-4173-8AED-898EDE65A30B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeApplication.Client.WPF", "RealTimeApplication.Client.WPF\RealTimeApplication.Client.WPF.csproj", "{5D183745-24AE-45BD-B622-F068B42815B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeApplication.Client.WPF", "RealTimeApplication.Client.WPF\RealTimeApplication.Client.WPF.csproj", "{5D183745-24AE-45BD-B622-F068B42815B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeApplication.Client.Angular", "RealTimeApplication.Client.Angular\RealTimeApplication.Client.Angular.csproj", "{1C3DE1A4-8587-40D7-9D9A-EFD227DC4FE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealTimeApplication.Client.Angular", "RealTimeApplication.Client.Angular\RealTimeApplication.Client.Angular.csproj", "{1C3DE1A4-8587-40D7-9D9A-EFD227DC4FE4}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RealTimeApplication.DB", "RealTimeApplication.DB\RealTimeApplication.DB.sqlproj", "{571A8CA9-0AFC-4B98-81B9-BD410DE6C69F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeApplication.Client.AngularNet", "RealTimeApplication.Client.AngularNet\RealTimeApplication.Client.AngularNet.csproj", "{786CDCEB-5C96-4043-B8F8-D407251B9FCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +60,10 @@ Global
 		{571A8CA9-0AFC-4B98-81B9-BD410DE6C69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{571A8CA9-0AFC-4B98-81B9-BD410DE6C69F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{571A8CA9-0AFC-4B98-81B9-BD410DE6C69F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{786CDCEB-5C96-4043-B8F8-D407251B9FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786CDCEB-5C96-4043-B8F8-D407251B9FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786CDCEB-5C96-4043-B8F8-D407251B9FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786CDCEB-5C96-4043-B8F8-D407251B9FCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
