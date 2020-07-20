@@ -7,9 +7,18 @@
 }
 
 .bottom {
-  background-color: #E1E9FF;
+  //background-color: #FFE2E5;
 }
 
 .section {
   border: none;
+}
+
+.iconColor {
+  fill: #6993FF
+}
+
+.symbol.symbol-light-info .symbol-label {
+  background-color: #E1E9FF;
+  color: #6993FF;
 }

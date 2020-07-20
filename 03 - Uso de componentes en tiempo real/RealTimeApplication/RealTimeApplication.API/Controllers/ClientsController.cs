@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using RealTimeApplication.API.Application.Order;
+using RealTimeApplication.API.Infrastructure.Framework.SignalR;
 using RealTimeApplication.Infrastructure.Dtos;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -15,9 +16,14 @@ namespace RealTimeApplication.API.Controllers
     public class ClientsController : ControllerBase
     {
         private readonly IClientApplicationServices _ClientApplicationServices;
-        public ClientsController(IClientApplicationServices ClientApplicationServices)
+        private readonly SignalRService _signalRService;
+        public ClientsController(
+            IClientApplicationServices ClientApplicationServices,
+            SignalRService signalRService
+            )
         {
             _ClientApplicationServices = ClientApplicationServices;
+            _signalRService = signalRService;
         }
         // GET: api/<ClientsController>
         [HttpGet]
@@ -35,9 +41,11 @@ namespace RealTimeApplication.API.Controllers
 
         // POST api/<ClientsController>
         [HttpPost]
-        public ActionResult<ClientDto> Insert([FromBody] ClientDto client)
+        public async Task<ActionResult<ClientDto>> Insert([FromBody] ClientDto client)
         {
-            return Ok(_ClientApplicationServices.Insert(client));
+            client = _ClientApplicationServices.Insert(client);
+            await _signalRService.NewClientServerAsync(client);
+            return Ok(client);
         }
 
         // PUT api/<ClientsController>/5

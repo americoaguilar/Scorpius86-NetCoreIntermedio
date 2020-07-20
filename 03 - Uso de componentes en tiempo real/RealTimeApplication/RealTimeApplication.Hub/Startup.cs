@@ -62,10 +62,10 @@ namespace RealTimeApplication.HUB
             //{
             //    opt.Configuration.ChannelPrefix = "Coffee";
             //})
-            .AddAzureSignalR(opt =>
-            {
-                opt.ConnectionString = "Endpoint=https://realtimeapplication-signalr.service.signalr.net;AccessKey=yw08R/mRHoU/SLRyNXR82DnriGRZN/BRNarkZ/mQ4Tg=;Version=1.0;";
-            })
+            //.AddAzureSignalR(opt =>
+            //{
+            //    opt.ConnectionString = "Endpoint=https://realtimeapplication-signalr.service.signalr.net;AccessKey=yw08R/mRHoU/SLRyNXR82DnriGRZN/BRNarkZ/mQ4Tg=;Version=1.0;";
+            //})
             .AddJsonProtocol(options => options.PayloadSerializerOptions.PropertyNamingPolicy = null);
         }
 
@@ -85,6 +85,7 @@ namespace RealTimeApplication.HUB
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapHub<CoffeeHub>("/CoffeeHub");
+                endpoints.MapHub<OrderHub>("/OrderHub");
             });
         }
     }

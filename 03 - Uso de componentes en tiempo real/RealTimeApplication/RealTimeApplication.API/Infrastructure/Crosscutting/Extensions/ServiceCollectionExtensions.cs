@@ -5,6 +5,7 @@ using RealTimeApplication.API.Application.Tracking;
 using RealTimeApplication.API.Infrastructure.Data.Repositories.Order;
 using RealTimeApplication.API.Infrastructure.Data.Repositories.Product;
 using RealTimeApplication.API.Infrastructure.Data.Repositories.Tracking;
+using RealTimeApplication.API.Infrastructure.Framework.SignalR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,8 @@ namespace RealTimeApplication.API.Infrastructure.Crosscutting.Extensions
             services.AddTransient<ITrackingApplicationServices, TrackingApplicationServices>();
             services.AddTransient<IClientApplicationServices, ClientApplicationServices>();
             services.AddTransient<IProductApplicationServices, ProductApplicationServices>();
+
+            services.AddSingleton<SignalRService>();
         }
     }
 }

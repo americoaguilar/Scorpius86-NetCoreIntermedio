@@ -7,10 +7,19 @@
 }
 
 .bottom {
-  background-color: #FFE2E5;
+  //background-color: #FFE2E5;
 }
 
 .section
 {
     border:none;
+}
+
+.iconColor {
+  fill: #F64E60
+}
+
+.symbol.symbol-light-danger .symbol-label {
+  background-color: #FFE2E5;
+  color: #F64E60;
 }

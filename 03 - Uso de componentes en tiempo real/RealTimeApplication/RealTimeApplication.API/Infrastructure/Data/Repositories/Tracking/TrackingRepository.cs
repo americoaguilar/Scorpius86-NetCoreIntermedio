@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace RealTimeApplication.API.Infrastructure.Data.Repositories.Tracking
 {
+    using Microsoft.AspNetCore.JsonPatch;
     using RealTimeApplication.API.Infrastructure.Data.Entities;
     public class TrackingRepository : ITrackingRepository
     {
@@ -59,13 +60,38 @@ namespace RealTimeApplication.API.Infrastructure.Data.Repositories.Tracking
             return _mapper.Map<TrackingDto>(trackingUpdate);
         }
 
+        public TrackingDto UpdatePatch(int trackingId, JsonPatchDocument<TrackingDto> trackingPatch)
+        {
+            Tracking trackingUpdate = _context.Trackings.Where(w => w.TrackingId == trackingId).FirstOrDefault();
+            TrackingDto trackingUpdateDto = _mapper.Map<TrackingDto>(trackingUpdate);
+            trackingPatch.ApplyTo(trackingUpdateDto);
+            _mapper.Map(trackingUpdateDto,trackingUpdate);
+            
+            //_context.Trackings.Update(trackingUpdate);
+            _context.SaveChanges();
+
+            return _mapper.Map<TrackingDto>(trackingUpdate);
+        }
+
         public TrackingDto Insert(TrackingDto tracking)
         {
             Tracking trackingCreate = new Tracking();
-            trackingCreate = _mapper.Map<Tracking>(tracking);
-            _context.Trackings.Add(trackingCreate);
-            _context.SaveChanges();
-
+            try
+            {                
+                trackingCreate = _mapper.Map<Tracking>(tracking);
+                trackingCreate.TrackingProducts.Clear();
+                List<Product> products = _context.Products.Where(p => tracking.TrackingProducts.Select(s => s.ProductId).Contains(p.ProductId)).ToList();
+                products.ForEach(product =>
+                {
+                    trackingCreate.TrackingProducts.Add(new TrackingProduct { Product = product });
+                });
+                _context.Trackings.Add(trackingCreate);
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
             return _mapper.Map<TrackingDto>(trackingCreate);
         }
 

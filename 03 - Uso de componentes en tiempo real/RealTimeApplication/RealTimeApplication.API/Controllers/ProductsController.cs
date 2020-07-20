@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using RealTimeApplication.API.Application.Product;
 using RealTimeApplication.API.Infrastructure.Data.Entities;
+using RealTimeApplication.API.Infrastructure.Framework.SignalR;
 using RealTimeApplication.Infrastructure.Dtos;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,9 +17,11 @@ namespace RealTimeApplication.API.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly IProductApplicationServices _ProductApplicationServices;
-        public ProductsController(IProductApplicationServices ProductApplicationServices)
+        private readonly SignalRService _signalRService;
+        public ProductsController(IProductApplicationServices ProductApplicationServices,SignalRService signalRService)
         {
             _ProductApplicationServices = ProductApplicationServices;
+            _signalRService = signalRService;
         }
         // GET: api/<ProductsController>
         [HttpGet]
@@ -36,9 +39,11 @@ namespace RealTimeApplication.API.Controllers
 
         // POST api/<ProductsController>
         [HttpPost]
-        public ActionResult<ProductDto> Insert([FromBody] ProductDto product)
+        public async Task<ActionResult<ProductDto>> Insert([FromBody] ProductDto product)
         {
-            return Ok(_ProductApplicationServices.Insert(product));
+            product = _ProductApplicationServices.Insert(product);
+            await _signalRService.NewProductServerAsync(product);
+            return Ok(product);
         }
 
         // PUT api/<ProductsController>/5

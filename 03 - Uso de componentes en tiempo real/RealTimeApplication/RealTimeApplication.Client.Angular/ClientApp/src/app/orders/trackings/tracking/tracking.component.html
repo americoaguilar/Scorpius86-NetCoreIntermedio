@@ -1,0 +1,39 @@
+<div class="container" *ngIf="!isLoading">
+  <article class="card">
+    <header class="card-header"> My Orders / Tracking </header>
+    <div class="card-body">
+      <h6>Order ID: OD{{tracking.Order.OrderId}}</h6>
+      <article class="card">
+        <div class="card-body row">
+          <div class="col"> <strong>Estimated Delivery time:</strong> <br>{{tracking.EstimatedDeliveryTime | date:'MMM d, y, h:mm:ss a'}} </div>
+          <div class="col"> <strong>Shipping BY:</strong> <br> {{tracking.Order.Client.Name + " " + tracking.Order.Client.LastName}}, | <i class="fa fa-phone"></i>{{tracking.Order.Client.Telephone}} </div>
+          <div class="col"> <strong>Status:</strong> <br> {{tracking.TrackingStatus.Description}} </div>
+          <div class="col"> <strong>Tracking #:</strong> <br> BD{{tracking.TrackingId}} </div>
+        </div>
+      </article>
+
+      <div class="track">
+        <div class="step" [ngClass]="{'active':(tracking.TrackingStatus.TrackingStatusId>=1)}"> <span class="icon"> <mat-icon fontSet="fa" fontIcon="fa-check"></mat-icon> </span> <span class="text">Order confirmed</span> </div>
+        <div class="step" [ngClass]="{'active':(tracking.TrackingStatus.TrackingStatusId>=2)}"> <span class="icon"> <mat-icon fontSet="fa" fontIcon="fa-money-check-alt"></mat-icon> </span> <span class="text">Order Billed</span> </div>
+        <div class="step" [ngClass]="{'active':(tracking.TrackingStatus.TrackingStatusId>=3)}"> <span class="icon"> <mat-icon fontSet="fa" fontIcon="fa-boxes"></mat-icon> </span> <span class="text">Picked by courier</span> </div>
+        <div class="step" [ngClass]="{'active':(tracking.TrackingStatus.TrackingStatusId>=4)}"> <span class="icon"> <mat-icon fontSet="fa" fontIcon="fa-truck"></mat-icon> </span> <span class="text">On the way</span> </div>
+        <div class="step" [ngClass]="{'active':(tracking.TrackingStatus.TrackingStatusId>=5)}"> <span class="icon"> <mat-icon fontSet="fa" fontIcon="fa-box"></mat-icon> </span> <span class="text">Ready for pickup</span> </div>
+        <div class="step" [ngClass]="{'active':(tracking.TrackingStatus.TrackingStatusId>=6)}"> <span class="icon"> <mat-icon fontSet="fa" fontIcon="fa-hand-holding-heart"></mat-icon> </span> <span class="text">Order delivered</span> </div>
+      </div>
+      <hr>
+      <ul class="row">
+        <li class="col-md-4" *ngFor="let trackingProduct of tracking.TrackingProducts">
+          <figure class="itemside mb-3">
+            <div class="aside"><img src="assets/img/product/{{trackingProduct.Product.FileImage}}" class="img-sm border"></div>
+            <figcaption class="info align-self-center">
+              <p class="title">{{trackingProduct.Product.Description}} with {{trackingProduct.Product.Feature01}} <br> {{trackingProduct.Product.Feature02}}</p> <span class="text-muted">${{trackingProduct.Product.Price}} </span>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+      <hr>
+      <a mat-flat-button color="warn" [routerLink]="['/']">Back to dashboard</a>
+      <!--<a class="btn btn-warning" data-abc="true"> <i class="fa fa-chevron-left"></i> Back to dashboard</a>-->
+    </div>
+  </article>
+</div>

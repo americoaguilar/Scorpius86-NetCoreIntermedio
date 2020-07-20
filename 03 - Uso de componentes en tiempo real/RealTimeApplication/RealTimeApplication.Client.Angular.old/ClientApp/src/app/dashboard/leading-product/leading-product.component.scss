@@ -1,0 +1,57 @@
+mat-card-header {
+  position: relative;
+  padding-bottom: 32px;
+}
+
+.productImage {
+  width: 90px;
+}
+
+.subTitle {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #B5B5C3;
+}
+
+.title {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.averagePercentage {
+  color: #1BC5BD;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.tableContainer {
+  position: relative;
+  max-height: 550px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+
+
+.hideHeader {
+  display: none;
+}
+
+.mat-column-FileImage {
+  width: 116px;
+}
+
+.mat-column-Price {
+  text-align: right;
+  width: 116px;
+}
+
+
+td.mat-cell {
+  border: none;
+  padding-bottom: 32px;
+}

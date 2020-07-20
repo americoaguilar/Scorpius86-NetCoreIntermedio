@@ -1,0 +1,46 @@
+mat-card-header{
+/*    padding-bottom: 20px;*/
+}
+.icon{
+    width: 38px;
+    height: 38px;
+}
+.iconContainer{
+    width: 50px;
+    height: 50px;
+    background-color: #F3F6F9;
+    text-align: center;
+    line-height: 80px;
+}
+.detail,
+.subTitle {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #B5B5C3;
+}
+  
+  .title {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .description{
+      padding-left: 24px;
+      line-height: 24px;
+  }
+.detail {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7E8299;
+}
+.top {
+  padding-top: 12px;
+}
+.bottom {
+  padding-top: 12px;
+}
+.list {
+  padding-left: 24px;
+  padding-right: 24px;
+}

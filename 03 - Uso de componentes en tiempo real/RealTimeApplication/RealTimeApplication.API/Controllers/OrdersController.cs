@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using RealTimeApplication.API.Application.Order;
 using RealTimeApplication.API.Infrastructure.Data.Entities;
+using RealTimeApplication.API.Infrastructure.Framework.SignalR;
 using RealTimeApplication.Infrastructure.Dtos;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,9 +17,14 @@ namespace RealTimeApplication.API.Controllers
     public class OrdersController : ControllerBase
     {
         private readonly IOrderApplicationServices _orderApplicationServices;
-        public OrdersController(IOrderApplicationServices orderApplicationServices)
+        private readonly SignalRService _signalRService;
+        public OrdersController(
+            IOrderApplicationServices orderApplicationServices,
+            SignalRService signalRService
+            )
         {
             _orderApplicationServices = orderApplicationServices;
+            _signalRService = signalRService;
         }
         // GET: api/<OrdersController>
         [HttpGet]
@@ -36,9 +42,12 @@ namespace RealTimeApplication.API.Controllers
 
         // POST api/<OrdersController>
         [HttpPost]
-        public ActionResult<OrderDto> Insert([FromBody] OrderDto order)
+        public async Task<ActionResult<OrderDto>> Insert([FromBody] OrderDto order)
         {
-            return Ok(_orderApplicationServices.Insert(order));
+            order = _orderApplicationServices.Insert(order);
+            await _signalRService.NewOrderServerAsync(order);
+
+            return Ok(order);
         }
 
         // PUT api/<OrdersController>/5

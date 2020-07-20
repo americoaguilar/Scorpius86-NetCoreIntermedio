@@ -1,4 +1,5 @@
-﻿using RealTimeApplication.API.Infrastructure.Data.Repositories.Tracking;
+﻿using Microsoft.AspNetCore.JsonPatch;
+using RealTimeApplication.API.Infrastructure.Data.Repositories.Tracking;
 using RealTimeApplication.Infrastructure.Dtos;
 using System;
 using System.Collections.Generic;
@@ -29,6 +30,11 @@ namespace RealTimeApplication.API.Application.Tracking
         {
             tracking.TrackingId = trackingId;
             return _trackingRepository.Update(tracking);
+        }
+
+        public TrackingDto UpdatePatch(int trackingId, JsonPatchDocument<TrackingDto> trackingPatch)
+        {
+            return _trackingRepository.UpdatePatch(trackingId,trackingPatch);
         }
 
         public TrackingDto Insert(TrackingDto tracking)

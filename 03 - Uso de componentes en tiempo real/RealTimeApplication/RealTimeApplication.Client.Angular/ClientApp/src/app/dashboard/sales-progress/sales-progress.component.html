@@ -1,10 +1,54 @@
 <mat-card fxFlex fxLayout="column" fxLayoutAlign="space-between stretch" class="mat-card-container">
-  <div fxFlex="50" class="top">
-
+  <div fxLayout="column" fxLayoutAlign="space-between stretch" fxFlex="50" class="top">
+    <mat-card fxFlex="78px" class="bg-transparent mat-elevation-z0">
+      <mat-card-header>
+        <mat-card-title>
+          <h3 class="font-weight-bolder text-white">Sales Progress</h3>
+        </mat-card-title>
+      </mat-card-header>        
+    </mat-card>
+    <mat-card fxFlex class="bg-transparent chartContainer mat-elevation-z0">
+      <mat-card-content #chartContainer fxLayout="column" fxLayoutAlign="space-between stretch" fxFlex>
+        <apx-chart #chart
+                   [series]="chartOptions.series"
+                   [chart]="chartOptions.chart"
+                   [plotOptions]="chartOptions.plotOptions"
+                   [legend]="chartOptions.legend"
+                   [dataLabels]="chartOptions.dataLabels"
+                   [stroke]="chartOptions.stroke"
+                   [xaxis]="chartOptions.xaxis"
+                   [yaxis]="chartOptions.yaxis"
+                   [fill]="chartOptions.fill"
+                   [states]="chartOptions.states"
+                   [tooltip]="chartOptions.tooltip"
+                   [colors]="chartOptions.colors"
+                   [grid]="chartOptions.grid"
+                   fxFlex ></apx-chart>
+      </mat-card-content>
+    </mat-card>
   </div>
   <div class="bottom" fxLayout="column" fxLayoutAlign="space-between stretch" fxFlex="50">
-    <mat-card fxFlex>
-
+    <mat-card fxLayout="column" fxLayoutAlign="space-between stretch" fxFlex class="mat-elevation-z0">
+      <div fxFlex="50"  class="bg-transparent mat-elevation-z0">
+        <mat-card fxFlex="50" class="bg-transparent mat-elevation-z0">
+          <div class="font-size-sm text-muted font-weight-bold">Average Sale</div>
+          <div class="font-size-h4 font-weight-bolder">$650</div>
+        </mat-card>
+        <mat-card fxFlex="50" class="bg-transparent mat-elevation-z0">
+          <div class="font-size-sm text-muted font-weight-bold">Commission</div>
+          <div class="font-size-h4 font-weight-bolder">$233,600</div>
+        </mat-card>
+      </div>
+      <div fxFlex="50"  class="bg-transparent mat-elevation-z0">
+        <mat-card fxFlex="50" class="bg-transparent mat-elevation-z0">
+          <div class="font-size-sm text-muted font-weight-bold">Annual Taxes</div>
+          <div class="font-size-h4 font-weight-bolder">$29,004</div>
+        </mat-card>
+        <mat-card fxFlex="50" class="bg-transparent mat-elevation-z0">
+          <div class="font-size-sm text-muted font-weight-bold">Annual Income</div>
+          <div class="font-size-h4 font-weight-bolder">$1,480,00</div>
+        </mat-card>
+      </div>
     </mat-card>
   </div>
 </mat-card>

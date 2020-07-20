@@ -1,0 +1,101 @@
+mat-card-header {
+  position: relative;
+  padding-bottom: 32px;
+}
+
+.buttonsHeader {
+  position: absolute;
+  right: 0;
+}
+
+.clientIcon {
+  width: 38px;
+  height: 38px;
+}
+
+.subTitleRating,
+.subTitle {
+  margin: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #B5B5C3;
+}
+.subTitleRating {
+  text-align:right;
+  font-size: 13px;
+}
+
+.title {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.averagePercentage {
+  color: #1BC5BD;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.tableContainer {
+  position: relative;
+  max-height: 370px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+
+
+.hideHeader {
+  display: none;
+}
+
+/*['FileImageIcon', 'Name', 'Total', 'Comission', 'Description', 'Rating', 'Action']*/
+
+.mat-column-FileImageIcon {
+  width: 38px;
+}
+
+.mat-column-Rating,
+.mat-column-Action,
+.mat-column-Comission,
+.mat-column-Total {
+  text-align: right;
+  width: 140px;
+}
+
+.mat-column-OrderId{
+    text-align:center;
+    width:80px;
+}
+
+
+td.mat-cell {
+  border: none;
+  padding-bottom: 32px;
+}
+
+th.mat-header-cell {
+  border: none;
+  padding-bottom: 32px;
+}
+
+.tableHeader {
+  font-size: 11.7px;
+  font-weight: 600;
+  font-family: Poppins, Helvetica, "sans-serif";
+  color: #B5B5C3;
+  text-transform: uppercase;
+}
+
+.stroke {
+  color: #3F4254
+}
+
+.tableHeaderText {
+  background-color: #F3F6F9;
+  padding-top:12px;
+  padding-bottom:12px;
+}

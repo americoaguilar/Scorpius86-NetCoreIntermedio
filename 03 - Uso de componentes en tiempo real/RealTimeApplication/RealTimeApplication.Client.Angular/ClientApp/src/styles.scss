@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
+@import '~@angular/material/theming';
+
+// Define a custom typography config that overrides the font-family as well as the
+// `headlines` and `body-1` levels.
+$custom-typography: mat-typography-config( $font-family:'Poppins, Helvetica, sans-serif');
+
+@include mat-base-typography($custom-typography);
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
@@ -18,11 +26,105 @@ code {
 html, body { height: 100%; }
 body {
   margin: 0;
-  /*  font-family: Roboto, "Helvetica Neue", sans-serif;*/
-  font-family: Poppins, Helvetica, "sans-serif";
-  background-color: #F3F6F9;
+  font-family: Poppins, Helvetica, sans-serif
 }
 
-.pad-l-24{
-    padding-left:24px !important;
+.bg-transparent{
+    background-color:transparent;
+}
+.pad-0{
+    padding:0px !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+.font-size-h3 {
+  font-size: 20px !important;
+}
+.font-size-h4 {
+  font-size: 18px !important;
+}
+.font-weight-bolder {
+  font-weight: 600 !important;
+}
+.font-size-sm {
+  font-size: 12px;
+}
+
+.text-muted {
+  color: #B5B5C3 !important;
+}
+
+.text-muted {
+  color: #B5B5C3 !important;
+}
+
+.text-dark-75 {
+  color: #3F4254 !important;
+}
+
+.font-weight-bold {
+  font-weight: 500 !important;
+}
+.mt-2, .my-2 {
+  margin-top: 0.5rem !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+
+
+
+
+.symbol.symbol-circle {
+  border-radius: 50%;
+}
+
+
+.symbol .symbol-label {
+  width: 50px;
+  height: 50px;
+}
+
+.symbol .symbol-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: 500;
+  line-height: 0;
+  color: #3F4254;
+  background-color: #F3F6F9;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0.42rem;
+}
+.symbol {
+  display: inline-block;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 0.42rem;
+}
+
+.symbol.symbol-50 .symbol-label {
+  width: 50px;
+  height: 50px;
+}
+
+.symbol.symbol-circle .symbol-label {
+  border-radius: 50%;
+}
+
+.mr-2, .mx-2 {
+  margin-right: 0.5rem !important;
 }

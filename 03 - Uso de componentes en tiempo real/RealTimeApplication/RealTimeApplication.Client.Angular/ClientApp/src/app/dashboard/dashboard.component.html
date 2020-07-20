@@ -4,19 +4,20 @@
   </div>
   <div class="content" fxLayout="column" fxLayoutAlign="space-between stretch" fxLayoutGap="25px" fxFlex>
     <div fxLayout="row" fxLayoutAlign="space-between stretch" fxLayoutGap="25px">
-      <div fxFlex="33.33333" >
+      <div fxFlex="25" >
           <app-sales-progress fxFlex></app-sales-progress>     
       </div>
-      <div fxFlex="66.66666" fxLayout="row" fxLayoutAlign="space-between stretch">
-        <app-sale-by-customer fxFlex></app-sale-by-customer>
+      <div fxFlex="75" fxLayout="row" fxLayoutAlign="space-between stretch">
+        <!--<app-sale-by-customer fxFlex></app-sale-by-customer>-->
+        <app-tracking-stats fxFlex></app-tracking-stats>
       </div>
     </div>
     <div fxLayout="row" fxLayoutAlign="space-between stretch" fxLayoutGap="25px">
-      <div fxLayout="column" fxFlex="33.33333" fxLayoutGap="25px">
+      <div fxLayout="column" fxFlex="25" fxLayoutGap="25px">
           <app-weekly-income fxFlex="50"></app-weekly-income>
           <app-sales-change fxFlex="50"></app-sales-change>
       </div>
-      <div  fxFlex="66.66666" fxLayout="row" fxLayoutAlign="space-between stretch">
+      <div  fxFlex="75" fxLayout="row" fxLayoutAlign="space-between stretch">
         <app-leading-product fxFlex></app-leading-product>
       </div>
     </div>
@@ -32,11 +33,12 @@
       </div>
     </div>
     <div fxLayout="row" fxLayoutAlign="space-between stretch" fxLayoutGap="25px">
-      <div fxFlex="25">
-        <app-trend></app-trend>
+      <div  fxFlex="33.33333">
+        <app-trend fxFlex></app-trend>
       </div>
-      <div fxFlex="75" fxLayout="row" fxLayoutAlign="space-between stretch">
-        <app-tracking-stats fxFlex></app-tracking-stats>
+      <div fxFlex="66.66666" fxLayout="row" fxLayoutAlign="space-between stretch">
+        <app-sale-by-customer fxFlex></app-sale-by-customer>
+        <!--<app-tracking-stats fxFlex></app-tracking-stats>-->
       </div>
     </div>
   </div>

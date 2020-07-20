@@ -1,0 +1,43 @@
+<div class="container" fxLayout="row" fxLayoutAlign="space-between stretch">
+  <div fxFlex="240px" fxLayout="column" fxLayoutAlign="space-between stretch">
+    <div fxFlex style="background-color:#fff" class="mat-elevation-z1"></div>
+  </div>
+  <div class="content" fxLayout="column" fxLayoutAlign="space-between stretch" fxLayoutGap="25px" fxFlex>
+    <div fxLayout="row" fxLayoutAlign="space-between stretch" fxLayoutGap="25px">
+      <div fxFlex="33.33333" >
+          <app-sales-progress fxFlex></app-sales-progress>     
+      </div>
+      <div fxFlex="66.66666" fxLayout="row" fxLayoutAlign="space-between stretch">
+        <app-sale-by-customer fxFlex></app-sale-by-customer>
+      </div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between stretch" fxLayoutGap="25px">
+      <div fxLayout="column" fxFlex="33.33333" fxLayoutGap="25px">
+          <app-weekly-income fxFlex="50"></app-weekly-income>
+          <app-sales-change fxFlex="50"></app-sales-change>
+      </div>
+      <div  fxFlex="66.66666" fxLayout="row" fxLayoutAlign="space-between stretch">
+        <app-leading-product fxFlex></app-leading-product>
+      </div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between stretch" fxLayoutGap="25px">
+      <app-order-stats fxFlex></app-order-stats>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between stretch" fxLayoutGap="25px">
+      <div fxFlex="50">
+        <app-notification fxFlex></app-notification>
+      </div>
+      <div fxFlex="50" fxLayout="row" fxLayoutAlign="space-between stretch">
+        <app-trending-item fxFlex></app-trending-item>
+      </div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="space-between stretch" fxLayoutGap="25px">
+      <div fxFlex="25">
+        <app-trend></app-trend>
+      </div>
+      <div fxFlex="75" fxLayout="row" fxLayoutAlign="space-between stretch">
+        <app-tracking-stats fxFlex></app-tracking-stats>
+      </div>
+    </div>
+  </div>
+</div>
