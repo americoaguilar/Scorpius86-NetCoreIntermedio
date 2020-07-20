@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
+using RealTimeApplication.HUB.Hubs.Order.Client;
 using RealTimeApplication.Infrastructure.Dtos;
 
 namespace RealTimeApplication.HUB.Hubs
 {
-    public class OrderHub : Hub<IOrderClient>
+    public partial class OrderHub : Hub<IOrderClient>
     {
         public async Task NewOrder(OrderDto order)
         {
@@ -24,6 +25,10 @@ namespace RealTimeApplication.HUB.Hubs
         public async Task UpdateTracking(TrackingDto tracking)
         {
             await Clients.All.UpdateTracking(tracking);
+        }
+        public async Task DeleteTracking(TrackingDto tracking)
+        {
+            await Clients.All.DeleteTracking(tracking);
         }
         public async Task NewProduct(ProductDto product)
         {

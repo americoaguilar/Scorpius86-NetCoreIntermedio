@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Infrastructure\Data\Entities\" />
     <Folder Include="Infrastructure\Security\" />
     <Folder Include="Dominio\" />
   </ItemGroup>

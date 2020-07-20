@@ -45,7 +45,7 @@ namespace RealTimeApplication.API.Controllers
         public async Task<ActionResult<OrderDto>> Insert([FromBody] OrderDto order)
         {
             order = _orderApplicationServices.Insert(order);
-            await _signalRService.NewOrderServerAsync(order);
+            await _signalRService.OrderServerEvents.NewOrder(order);
 
             return Ok(order);
         }

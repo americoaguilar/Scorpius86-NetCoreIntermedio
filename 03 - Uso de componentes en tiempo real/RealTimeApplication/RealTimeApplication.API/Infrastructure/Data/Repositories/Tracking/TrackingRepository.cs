@@ -78,13 +78,7 @@ namespace RealTimeApplication.API.Infrastructure.Data.Repositories.Tracking
             Tracking trackingCreate = new Tracking();
             try
             {                
-                trackingCreate = _mapper.Map<Tracking>(tracking);
-                trackingCreate.TrackingProducts.Clear();
-                List<Product> products = _context.Products.Where(p => tracking.TrackingProducts.Select(s => s.ProductId).Contains(p.ProductId)).ToList();
-                products.ForEach(product =>
-                {
-                    trackingCreate.TrackingProducts.Add(new TrackingProduct { Product = product });
-                });
+                _mapper.Map(tracking,trackingCreate);
                 _context.Trackings.Add(trackingCreate);
                 _context.SaveChanges();
             }
@@ -97,7 +91,14 @@ namespace RealTimeApplication.API.Infrastructure.Data.Repositories.Tracking
 
         public TrackingDto Delete(int trackingId)
         {
-            Tracking trackingDelete = _context.Trackings.Where(w => w.TrackingId == trackingId).FirstOrDefault();
+            Tracking trackingDelete = _context.Trackings
+                .Include(t=>t.TrackingProducts)
+                .Where(w => w.TrackingId == trackingId).FirstOrDefault();
+
+            trackingDelete.TrackingProducts.ToList().ForEach(tp =>
+            {
+                _context.TrackingProducts.Remove(tp);
+            });
             _context.Trackings.Remove(trackingDelete);
             _context.SaveChanges();
 

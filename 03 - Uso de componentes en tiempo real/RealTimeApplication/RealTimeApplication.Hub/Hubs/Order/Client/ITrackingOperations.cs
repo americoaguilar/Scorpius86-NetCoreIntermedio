@@ -4,15 +4,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RealTimeApplication.HUB.Hubs
+namespace RealTimeApplication.HUB.Hubs.Order.Client
 {
-    public interface IOrderClient
+    public interface ITrackingOperations
     {
-        Task NewOrder(OrderDto order);
-        Task NewClient(ClientDto client);
         Task NewTracking(TrackingDto tracking);
         Task UpdateTracking(TrackingDto tracking);
-        Task NewProduct(ProductDto product);
-
+        Task DeleteTracking(TrackingDto tracking);
     }
 }

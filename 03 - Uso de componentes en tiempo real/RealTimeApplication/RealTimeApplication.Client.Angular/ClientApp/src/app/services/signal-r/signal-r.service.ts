@@ -1,9 +1,9 @@
 import { EventEmitter, Injectable } from '@angular/core';
 import * as signalR from "@microsoft/signalr";
-import { OrderModel } from '../../models/order.model';
-import { ClientModel } from '../../models/client.model';
-import { TrackingModel } from '../../models/tracking.model';
-import { ProductModel } from '../../models/product.model';
+import { ClientEvents } from './events/client.events';
+import { OrderEvents } from './events/order.events';
+import { ProductEvents } from './events/product.events';
+import { TrackingEvents } from './events/tracking.events';
 
 @Injectable({
   providedIn: 'root'
@@ -11,12 +11,10 @@ import { ProductModel } from '../../models/product.model';
 export class SignalRService {
 
   connectionEstablished = new EventEmitter<boolean>();
-
-  onNewOrder = new EventEmitter<OrderModel>();
-  onNewClient = new EventEmitter<ClientModel>();
-  onNewTracking = new EventEmitter<TrackingModel>();
-  onUpdateTracking = new EventEmitter<TrackingModel>();
-  onNewProduct = new EventEmitter<ProductModel>();
+  ClientEvents: ClientEvents;
+  OrderEvents: OrderEvents;
+  Productevents: ProductEvents;
+  TrackingEvents: TrackingEvents;
 
   private connectionIsEstablished = false;
   private _hubConnection: signalR.HubConnection;
@@ -48,20 +46,9 @@ export class SignalRService {
   }
 
   private registerClientEvents(): void {
-    this._hubConnection.on('NewOrder', (order) => {
-      this.onNewOrder.emit(order);
-    });
-    this._hubConnection.on('NewClient', (client) => {
-      this.onNewClient.emit(client);
-    });
-    this._hubConnection.on('NewTracking', (tracking) => {
-      this.onNewTracking.emit(tracking);
-    });
-    this._hubConnection.on('UpdateTracking', (tracking) => {
-      this.onUpdateTracking.emit(tracking);
-    });
-    this._hubConnection.on('NewProduct', (product) => {
-      this.onNewProduct.emit(product);
-    });
+    this.ClientEvents = new ClientEvents(this._hubConnection);
+    this.OrderEvents = new OrderEvents(this._hubConnection);
+    this.Productevents = new ProductEvents(this._hubConnection);
+    this.TrackingEvents = new TrackingEvents(this._hubConnection);
   }
 }

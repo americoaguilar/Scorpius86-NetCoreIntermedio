@@ -30,13 +30,14 @@ export class TrackingStatsComponent implements OnInit {
 
   private subscribeToEvents(): void {
 
-    this.signalRService.onUpdateTracking.subscribe((tracking: TrackingModel) => {
-      this.updateTracking(tracking);
+    this.signalRService.TrackingEvents.onUpdateTracking.subscribe((tracking: TrackingModel) => {
+      this.list();
+    });
+    this.signalRService.TrackingEvents.onNewTracking.subscribe((tracking: TrackingModel) => {
+      this.list();
+    });
+    this.signalRService.TrackingEvents.onDeleteTracking.subscribe((tracking: TrackingModel) => {
+      this.list();
     });
   }
-
-  private updateTracking(tracking: TrackingModel) {
-    this.list();
-  }
-
 }

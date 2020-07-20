@@ -42,7 +42,7 @@ namespace RealTimeApplication.API.Controllers
         public async Task<ActionResult<TrackingDto>> Insert([FromBody] TrackingDto tracking)
         {
             tracking = _trackingApplicationServices.Insert(tracking);
-            await _signalRService.NewTrackingServerAsync(tracking);
+            await _signalRService.TrackingServerEvents.NewTracking(tracking);
             return Ok(tracking);
         }
 
@@ -51,7 +51,7 @@ namespace RealTimeApplication.API.Controllers
         public async Task<ActionResult<TrackingDto>> Update(int trackingId, [FromBody] TrackingDto tracking)
         {
             tracking = _trackingApplicationServices.Update(trackingId, tracking);
-            await _signalRService.UpdateTrackingServerAsync(tracking);
+            await _signalRService.TrackingServerEvents.UpdateTracking(tracking);
             return Ok(tracking);
         }
 
@@ -59,15 +59,17 @@ namespace RealTimeApplication.API.Controllers
         public async Task<ActionResult<TrackingDto>> Update(int trackingId, [FromBody] JsonPatchDocument<TrackingDto> trackingPatch)
         {
             TrackingDto tracking = _trackingApplicationServices.UpdatePatch(trackingId, trackingPatch);
-            await _signalRService.UpdateTrackingServerAsync(tracking);
+            await _signalRService.TrackingServerEvents.UpdateTracking(tracking);
             return Ok(tracking);
         }
 
         // DELETE api/<trackingsController>/5
         [HttpDelete("{trackingId}")]
-        public ActionResult<TrackingDto> Delete(int trackingId)
+        public async Task<ActionResult<TrackingDto>> DeleteAsync(int trackingId)
         {
-            return Ok(_trackingApplicationServices.Delete(trackingId));
+            TrackingDto tracking = _trackingApplicationServices.Delete(trackingId);
+            await _signalRService.TrackingServerEvents.DeleteTracking(tracking);
+            return Ok(tracking);
         }
     }
 }

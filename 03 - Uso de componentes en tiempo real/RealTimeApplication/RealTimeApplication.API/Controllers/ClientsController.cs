@@ -44,7 +44,7 @@ namespace RealTimeApplication.API.Controllers
         public async Task<ActionResult<ClientDto>> Insert([FromBody] ClientDto client)
         {
             client = _ClientApplicationServices.Insert(client);
-            await _signalRService.NewClientServerAsync(client);
+            await _signalRService.ClientServerEvents.NewClient(client);
             return Ok(client);
         }
 

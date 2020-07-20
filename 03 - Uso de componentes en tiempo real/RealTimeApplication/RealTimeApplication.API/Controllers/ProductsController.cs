@@ -42,7 +42,7 @@ namespace RealTimeApplication.API.Controllers
         public async Task<ActionResult<ProductDto>> Insert([FromBody] ProductDto product)
         {
             product = _ProductApplicationServices.Insert(product);
-            await _signalRService.NewProductServerAsync(product);
+            await _signalRService.ProductServerEvents.NewProduct(product);
             return Ok(product);
         }
 
